@@ -6,11 +6,11 @@ import { useEffect } from 'react'
 
 export default function Home() {
   const router = useRouter()
-
   useEffect(()=>{
 
     router.push("/tiles?level=1")
-  })
+  },)
+ 
 
   
 

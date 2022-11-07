@@ -17,10 +17,7 @@ function tiles() {
 
 
 
-    useEffect(()=>{
-
-        router.push("/tiles?level=1")
-      },[])
+   
     useEffect(() => {
         localStorage.setItem("level", JSON.stringify(nextLev))
     }, [nextLev])
